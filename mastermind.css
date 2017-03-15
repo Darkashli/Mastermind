@@ -1,0 +1,205 @@
+*{
+	font-family: fantasy;
+	font-weight: normal;
+	color: yellow;
+	
+
+	/*color:coral;
+    color:lightblue;
+    color:khaki;
+    color:pink;
+    color:lightgrey;
+    color:lightgreen;*/
+}
+
+body{
+	background: url('nature.1.jpg') fixed center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+  
+}
+
+h1{
+	text-align: center;
+	letter-spacing: 15px;
+}
+
+h4.welcome{
+        text-align: center;
+        margin-top:0px;
+}
+
+button{
+	background-color: #795548;
+	border: none;
+	color:#yellow;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 1.5px;
+	border-radius: 10px;
+}
+
+select{
+	background-color: green;
+}
+
+div.paintarrow {
+	background: url('arrow-down.png');
+	width: 40px;
+	height: 42px;
+	background-size: 40px;
+
+}
+
+div#Container-top {
+	width: 800px;
+    background-color: rgba(0,0,0,0.4);
+    margin: 0px auto;
+}
+
+div#Container{
+	background-color: rgba(0,0,0,0.4);
+	width: 800px;
+	margin: 0px auto;
+
+}
+
+div#Win{
+	background-color: rgba(0,0,0,0.4);
+	width: 800px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	display: none;
+
+}
+
+div#Fail{
+	background-color: rgba(0,0,0,0.4);
+	width: 800px;
+	margin: 0px;
+	padding: 15px;
+	text-align: center;
+	display: none;
+
+}
+
+div.Row{
+	display: flex;
+    width: 380px;
+    height: 25px;
+    border-bottom: 1px solid #fff;
+    padding: auto;
+	padding-bottom: 19px; 
+	margin-top: 10px;
+}
+
+div.Arrow{
+	margin-left: 20px;
+
+}
+
+div.paintarrow{
+	display: inline-block;
+
+}
+
+div.Rowaside {
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 35px;
+    margin:1px auto;
+
+}
+
+div.Rowasideup {
+	display: flex;
+}
+
+div.Rowasidedown {
+	display: flex;
+}
+
+
+div.ball {
+    width: 35px;
+    border: 1px dotted #fff;
+    border-radius: 100%;
+    height: 35px;
+    margin: 1px auto;
+    margin-left: 20px;
+
+
+}
+
+div.ballaside {
+    width: 14px;
+    border: 1px dotted #fff;
+    border-radius: 100%;
+    height: 14px;
+    margin: 2px auto;
+}
+
+aside {
+    width: 350px;
+    height: auto;
+    margin-left: 400px;
+    float: top;
+
+}
+
+
+div.Rowanwser{
+    display: flex;
+    height: 35px;
+    width: 190px;
+    padding: 0px 40px;
+    padding-bottom: 5px;
+    margin: 10px auto;
+}
+
+
+
+h2#column {
+    text-align: center;
+    color: #yellow;
+}
+
+
+button.column-change-color {
+    width: 35px;    
+    height: 35px; 
+    border: 1px dotted #fff;
+    border-radius: 100%;
+
+}
+
+button.coral {
+    background: coral;
+}
+
+button.lightblue {
+    background: lightblue;
+}
+
+button.khaki {
+    background: khaki;
+}
+
+button.pink {
+    background: pink;
+}
+
+button.lightgrey {
+    background: lightgrey;
+}
+
+button.lightgreen {
+    background: lightgreen;
+}
